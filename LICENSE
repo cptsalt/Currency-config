@@ -1,0 +1,39 @@
+Copyright 2026 cptsalt, all rights reserved.
+
+This mod is under a closed source license which applies to the version of the mod it was published with. By downloading this mod, the end user (henceforth referred to as "you") agrees to follow the rules for the license as specified below, which may be freely terminated at any time by either you or the copyright holders. If at any point either you or the copyright holders wish to terminate the license agreement, you must immediately stop using this mod, and must immediately destroy all downloaded copies of the mod in your posession before being released from the agreement.
+
+Anything not expressly permitted within this license is considered prohibited by the copyright holders.
+
+At the discretion of the Copyright Holders, this license agreement is subject to change or discontinuation at any time. Any changes will be specified with a note on updates published to Steam or GitHub. By continuing to use the mod, you agree to all changes made to the license agreement.
+
+If you would like to do something with this mod which is not authorized below, please contact the author or copyright holders for permission (and actually gain permission) before performing any actions.
+
+This mod can be found at the following URLs:
+- Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=3820038816
+- GitHub: https://github.com/cptsalt/Currency-config
+Please note that any downloads or mirrors of this mod that are not from the above URLs and are not specified below are not authorized, and should be reported.
+
+You, the end user, may:
+- Download and use this mod in its executable form from the Steam Workshop at the following URL: https://steamcommunity.com/sharedfiles/filedetails/?id=3820038816
+- Download and use this mod in its executable form from GitHub at the following URL: https://github.com/cptsalt/Currency-config
+- Alter, use, publish, and distribute the "currency_config.json" file within this mod, as well as patches for them.
+- Create, alter, use, publish, and distribute front facing or visual image assets to be used with the mod (icons, backgrounds, stat spreads, etc.) Note: This specifically excludes code or changes to the mod's mechanical behavior. You may not use, maintain, publish, or distribute original or derivative code to alter the mod's behavior without prior authorization.
+
+Unless explicitly permitted in writing by the copyright holders, you, the end user, may NOT:
+- Decompile, reverse engineer, or otherwise gain unauthorized access to source code, to include the GUI config file.
+- Host downloads or mirrors for this mod's content (namely binaries or source code) in any form. Isolated files or assets authorized above for alteration and publishing are exempt from this prohibition.
+- Use, maintain, publish, or distribute unauthorized source code, altered or unaltered (in forks, patches, or any other medium), from this mod for use in other projects.
+- Use, maintain, publish, or distribute unauthorized source code which is designed to alter the programatic behavior of this mod. This includes forks or patches which alter or replace functions to work with game clients.
+
+You, the end user, may NOT, under any circumstances:
+- Use, modify, or distribute this mod, in part or whole, altered or unaltered, for any illegal purpose.
+
+Please note that any published alterations or derivative work based on this mod must provide visible and clearly disclosed credit to the original mod, to include a link to its download (the Steam Workshop URL), as well as credit to the author.
+
+
+The following has been adapted from the MIT License, and applies to this software:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
