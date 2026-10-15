@@ -1,0 +1,57 @@
+the config file is meant to set up currency in a thematic and visual way. The system should be versatile enough to support most types of money
+
+note that anything past the "symbol" entry is not required and can be left out if the unit doesn't need it
+
+{
+    "common": {
+        "walletName": "Coin Purse", // what the wallet will be called in panes and command results
+        "walletIcon": "/items/active/unsorted/rewardbag/rewardbag.png", // the icon of the wallet in the pane
+        "startingMoney": "10s", // how much starting money (if any) a new player should receive. You can delete this if you want NO money to be given to new players
+        "noMoneyMsg": "^red;coinless^reset;" // what message will appear in someone's wallet if they have no money
+    },
+    "units": {
+        "platinum": { //use a simple name for each unit's key. It must be unique to other keys
+            "name": "platinum coin", // the name for a single piece of the unit. This entry can be the same as the key if needed
+            "pluralName": "platinum coins", // the name for multiple pieces of the unit
+            "symbol": "p", // the shorthand symbol for the unit. this will ALWAYS go AFTER the number of units, and must be unique
+            "color": "#eef", // the color of the unit for use in the wallet, optional
+            "icon": "/items/generic/crafting/platinumbar.png" // the icon for the unit in the wallet, optional
+        },
+        "gold": {
+            "name": "gold coin",
+            "pluralName": "gold coins",
+            "symbol": "g",
+            "color": "#ec7",
+            "icon": "/items/generic/crafting/goldbar.png"
+        },
+        "silver": {
+            "name": "silver coin",
+            "pluralName": "silver coins",
+            "symbol": "s",
+            "color": "#ddd",
+            "icon": "/items/generic/crafting/silverbar.png"
+        },
+        "copper": {
+            "name": "copper coin",
+            "pluralName": "copper coins",
+            "symbol": "c",
+            "color": "#a75",
+            "icon": "/items/generic/crafting/copperbar.png"
+        },
+        "essence": { // NOTE: This example is to show unique features of the config
+            "name": "soulbound essence",
+            "pluralName": "soulbound essence", // plural names can be the same as singular names
+            "symbol": "E", // symbols are CASE SENSITIVE!! If this becomes a common issue, let me know
+            "color": "#9d4fe6",
+            "transferable":false, // disallows the unit to be sent to other players
+            //NOTICE that there is no icon here, they are optional!
+        }
+    },
+    "priorities": [ //the priority in which units are loaded in the wallet
+        "platinum",
+        "gold",
+        "silver",
+        "copper",
+        "essence"
+    ]
+}

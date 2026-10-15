@@ -1,0 +1,9 @@
+{
+  "author" : "Captain Salt",
+  "description" : "Patches the currency mod with a custom config",
+  "friendlyName" : "Currency Server Addon",
+  "includes" : ["currency"],
+  "name" : "currencyServer",
+  "tags" : "User Interface|In-Game Tools|Mechanics",
+  "version" : "1.0"
+}

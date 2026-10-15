@@ -1,0 +1,52 @@
+{
+    "common": {
+        "walletName": "Coin Purse",
+        "walletIcon": "/items/active/unsorted/rewardbag/rewardbag.png",
+        "startingMoney": "10s",
+        "noMoneyMsg": "^red;coinless^reset;"
+    },
+    "units": {
+        "platinum": {
+            "name": "platinum coin",
+            "pluralName": "platinum coins",
+            "symbol": "p",
+            "color": "#eef",
+            "icon": "/items/generic/crafting/platinumbar.png"
+        },
+        "gold": {
+            "name": "gold coin",
+            "pluralName": "gold coins",
+            "symbol": "g",
+            "color": "#ec7",
+            "icon": "/items/generic/crafting/goldbar.png"
+        },
+        "silver": {
+            "name": "silver coin",
+            "pluralName": "silver coins",
+            "symbol": "s",
+            "color": "#ddd",
+            "icon": "/items/generic/crafting/silverbar.png"
+        },
+        "copper": {
+            "name": "copper coin",
+            "pluralName": "copper coins",
+            "symbol": "c",
+            "color": "#a75",
+            "icon": "/items/generic/crafting/copperbar.png"
+        },
+        "essence": {
+            "name": "soulbound essence",
+            "pluralName": "soulbound essence",
+            "symbol": "E",
+            "color": "#9d4fe6",
+            "transferable": false
+        }
+    },
+    "priorities": [
+        "platinum",
+        "gold",
+        "silver",
+        "copper",
+        "essence"
+    ]
+}
